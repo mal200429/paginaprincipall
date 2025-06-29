@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programación Digital</title>
+
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; 
+            color: #333;
+            display: flex; 
+            flex-direction: column; 
+            min-height: 100vh; 
+            justify-content: center;
+            align-items: center; 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+        }
+        .main-content {
+            text-align: center; 
+            background-color: #fff; 
+            padding: 40px;
+            border-radius: 10px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 90%; 
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        .profile-img {
+            width: 200px; 
+            height: 200px;
+            border-radius: 50%; 
+            object-fit: cover; 
+            margin-bottom: 30px; 
+            border: 5px solid #333; 
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+        }
+        .label {
+            font-size: 1.8em;
+            color: #555;
+            margin-bottom: 25px;
+        }
+        .links-container {
+            margin-top: 25px;
+        }
+        .links-container a {
+            display: inline-block; 
+            background-color: #777;
+            color: white;
+            padding: 12px 25px;
+            margin: 10px; 
+            border-radius: 8px; 
+            text-decoration: none; 
+            font-size: 1.1em;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); 
+        }
+
+        .links-container a:hover {
+            background-color: #555; 
+            transform: translateY(-5px); 
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 0.8em;
+            color: #777;
+        }
+    </style>
+</head>
+<body> 
+    <div class="main-content">
+        <h1>Programación Digital</h1>
+
+        <img src="img/img.jpeg" alt="Tu Foto de Perfil" class="profile-img">
+
+        <p class="label">Proyectos</p>
+
+        <div class="links-container">
+            <a href="plantas/plantas.html">Plantas</a>
+            <a href="cancionero/index.html - 01.html">Cancionero</a> 
+            <a href="mecanica/INDEX.HTML.html">Mecánica</a>
+        </div>
+    </div> <footer>
+        <p>&copy; 2025 Brenda Melissa Lara Cutz.</p>
+    </footer>
+
+</body>
+</html>
